@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expense/Expenses";
 
 
 
@@ -29,9 +29,7 @@ function App() {
   return (
     <div>
       <h1>Expence Tracker</h1>
-
      <Expenses expenses={expenses} />
-     
     </div>
   );
 }
