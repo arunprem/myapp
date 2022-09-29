@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Expenses from "./components/Expense/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 
 
@@ -29,7 +30,9 @@ function App() {
   return (
     <div>
       <h1>Expence Tracker</h1>
+      <NewExpense/>
      <Expenses expenses={expenses} />
+
     </div>
   );
 }
